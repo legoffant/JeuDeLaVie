@@ -17,7 +17,7 @@ TARGET	makefile	/^TARGET = jeudelavie$/;"	m
 age	jeudelavie.c	/^		int age;$/;"	m	struct:main::gens	typeref:typename:int	file:
 all	makefile	/^all: $(TARGET)$/;"	t
 clean	makefile	/^clean:$/;"	t
-genre	jeudelavie.c	/^		char genre = M;$/;"	m	struct:main::gens	typeref:typename:char	file:
+genre	jeudelavie.c	/^		char genre;$/;"	m	struct:main::gens	typeref:typename:char	file:
 gens	jeudelavie.c	/^	struct gens {$/;"	s	function:main	file:
 main	jeudelavie.c	/^int main(void) {$/;"	f	typeref:typename:int
 taille	jeudelavie.c	/^		float taille;$/;"	m	struct:main::gens	typeref:typename:float	file:

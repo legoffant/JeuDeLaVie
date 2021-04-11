@@ -9,7 +9,9 @@ int main(void) {
 
 		int age;
 		float taille;
-		char genre = M;
+		char genre;
 	};
+	
+	
 }
 
