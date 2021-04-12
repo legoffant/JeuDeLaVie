@@ -10,9 +10,13 @@
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210110.0/
 $(TARGET)	makefile	/^$(TARGET): $(TARGET).c$/;"	t
+Analyse du programme	README.md	/^## Analyse du programme$/;"	s	chapter:Jeu de la Vie de Conway implanté en C
 CC	makefile	/^CC = gcc$/;"	m
 CFLAGS	makefile	/^CFLAGS = -Wall -Wextra -Werror$/;"	m
-JeuDeLaVie	README.md	/^# JeuDeLaVie$/;"	c
+Constructeurs universels	README.md	/^## Constructeurs universels$/;"	s	chapter:Jeu de la Vie de Conway implanté en C
+Historique	README.md	/^## Historique$/;"	s	chapter:Jeu de la Vie de Conway implanté en C
+Jeu de la Vie de Conway implanté en C	README.md	/^# Jeu de la Vie de Conway implanté en C $/;"	c
+Règles du jeu	README.md	/^## Règles du jeu$/;"	s	chapter:Jeu de la Vie de Conway implanté en C
 TARGET	makefile	/^TARGET = jeudelavie$/;"	m
 age	jeudelavie.c	/^		int age;$/;"	m	struct:main::gens	typeref:typename:int	file:
 all	makefile	/^all: $(TARGET)$/;"	t
