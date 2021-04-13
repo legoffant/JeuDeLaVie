@@ -24,7 +24,10 @@
  *  Prototype de  *
  *  fonction      */
 
-
+void initialisation(char matrix[LIGNE][COLONNE]);
+void evolution(char matrix[LIGNE][COLONNE]);
+void afficher_matrix(char matrix[LIGNE][COLONNE]);
+int compter_voisinage(char matrix[LIGNE][COLONNE], int ligne, int colonne);
 
 
 /*                   *
