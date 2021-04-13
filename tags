@@ -10,18 +10,20 @@
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210110.0/
 $(TARGET)	makefile	/^$(TARGET): $(TARGET).c$/;"	t
-ALIVE	jeudelavie.c	/^#define ALIVE /;"	d	file:
 Analyse du programme	README.md	/^## Analyse du programme$/;"	s	chapter:Jeu de la Vie de Conway implanté en C
 CC	makefile	/^CC = gcc$/;"	m
 CFLAGS	makefile	/^CFLAGS = -Wall -Wextra -Werror$/;"	m
 COLONNE	jeudelavie.c	/^#define COLONNE /;"	d	file:
 Constructeurs universels	README.md	/^## Constructeurs universels$/;"	s	chapter:Jeu de la Vie de Conway implanté en C
-DEAD	jeudelavie.c	/^#define DEAD /;"	d	file:
 Historique	README.md	/^## Historique$/;"	s	chapter:Jeu de la Vie de Conway implanté en C
 Jeu de la Vie de Conway implanté en C	README.md	/^# Jeu de la Vie de Conway implanté en C $/;"	c
 LIGNE	jeudelavie.c	/^#define LIGNE /;"	d	file:
 Règles du jeu	README.md	/^## Règles du jeu$/;"	s	chapter:Jeu de la Vie de Conway implanté en C
 TARGET	makefile	/^TARGET = jeudelavie$/;"	m
+__anon2ecd00340103	jeudelavie.c	/^enum {$/;"	g	file:
+afficher_matrix	jeudelavie.c	/^void afficher_matrix(char matrix[LIGNE][COLONNE]) {$/;"	f	typeref:typename:void
+alive	jeudelavie.c	/^	dead, alive$/;"	e	enum:__anon2ecd00340103	file:
 all	makefile	/^all: $(TARGET)$/;"	t
 clean	makefile	/^clean:$/;"	t
+dead	jeudelavie.c	/^	dead, alive$/;"	e	enum:__anon2ecd00340103	file:
 main	jeudelavie.c	/^int main(void) {$/;"	f	typeref:typename:int

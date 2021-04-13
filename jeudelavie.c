@@ -13,8 +13,9 @@
 #include<stdlib.h> 
 
 // Etat des cellules
-#define ALIVE 1
-#define DEAD 0
+enum {
+	dead, alive
+};
 
 // Taille de la matrice constante
 #define LIGNE 80
@@ -37,8 +38,28 @@ int compter_voisinage(char matrix[LIGNE][COLONNE], int ligne, int colonne);
 
 int main(void) {
 
+	
+	char matrix[LIGNE][COLONNE] = {dead};
+	afficher_matrix(matrix);
+
+
 	return 0;
 	
+
 	
+}
+
+// Afficher la grille format 180x80 et définir un cellule
+void afficher_matrix(char matrix[LIGNE][COLONNE]) {
+	int i,j;
+	for(i = 0;i<LIGNE+2;i++) {
+		printf("--");
+	}
+	printf("\n");
+	for(j= 0;j<COLONNE+2;j++){
+		printf("|\n");
+	}
+
+
 }
 
